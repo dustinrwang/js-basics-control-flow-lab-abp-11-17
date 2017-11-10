@@ -14,6 +14,7 @@ function ternaryCheckCity(city) {
 }
 
 
+
   /* Goal - Does the city = NYC? Yes = return ok, No = return no go
    1. A => return '
    2. B => 'No go'
