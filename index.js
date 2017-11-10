@@ -9,11 +9,13 @@ function scuberGreetingForFeet(distance) {
   }
 }
 
+
 function ternaryCheckCity(city) {
   return city=='NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
-function switchOnCharmFromTip(tipamt) {
+
+switch switchOnCharmFromTip(tipamt) {
   case 'generous':
     return 'Thank you so much.';
     break;
