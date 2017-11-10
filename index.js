@@ -9,7 +9,9 @@ function scuberGreetingForFeet(distance) {
   }
 }
 
-
+function ternaryCheckCity(city) {
+  return (city='NYC') ? 'Ok, sounds good' : 'No go.';
+}
 
 
   /* Goal - Does the city = NYC? Yes = return ok, No = return no go
