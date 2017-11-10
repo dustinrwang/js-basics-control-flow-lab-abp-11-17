@@ -2,8 +2,14 @@
 function scuberGreetingForFeet(distance) {
   if (distance < 400) {
     return "This one is on me!";
-  } 
+  } else if (distance > 2000 && distance < 2500) {
+    return 'I will gladly take your thirty bucks.';
+  } else if (distance > 2500) {
+    return 'No can do.';
+  }
 }
+
+
   /* Goal - Does the city = NYC? Yes = return ok, No = return no go
    1. A => return '
    2. B => 'No go'
