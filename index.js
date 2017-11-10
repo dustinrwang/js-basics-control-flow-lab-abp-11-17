@@ -15,14 +15,16 @@ function ternaryCheckCity(city) {
 }
 
 
-switch switchOnCharmFromTip(tipamt) {
-  case 'generous':
-    return 'Thank you so much.';
-    break;
+function switchOnCharmFromTip(tipamt) {
+  switch (tipamt) {
+    case 'generous':
+      return 'Thank you so much.';
+      break;
 
-  case 'not as generous':
-    return 'Thank you.';
-    break;
+      case 'not as generous':
+        return 'Thank you.';
+        break;
+  }
 }
 
   /* Goal - Does the city = NYC? Yes = return ok, No = return no go
