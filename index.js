@@ -24,6 +24,10 @@ function switchOnCharmFromTip(tipamt) {
       case 'not as generous':
         return 'Thank you.';
         break;
+
+      case 'thanks for eveything':
+        return 'Bye.';
+        break;  
   }
 }
 
